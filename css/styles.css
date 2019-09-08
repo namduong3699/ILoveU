@@ -25,11 +25,16 @@ position: fixed;
 }
 
 .msg {
-	margin: 0 auto;
+	margin: 60px auto;
 	text-align: center;
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #FFF;
 	font-size: 16px;
+	background: rgba(52, 152, 219, .3);
+	border: solid 3px rgba(255, 255, 255,1.0);
+	width: 40%;
+	padding: 15px;
+	border-radius: 25px;
 }
 
 h1 {
@@ -65,7 +70,7 @@ input[type=button] {
 	-webkit-border-radius: 5px;
 	padding: 15px 25px;
 	position: absolute;
-	left: 500px;
+	left: 30%;
 	top: 300px;
 	cursor: pointer;
 	-o-transition: .5s;
@@ -84,8 +89,12 @@ input[type=button] {
 	font-size: 15px;
 }
 
+#lbNo {
+
+}
+
 #co:hover {
-	background: #111;
+	background: #3498db;
 }
 
 #form {
@@ -101,9 +110,9 @@ input[type=button] {
 	color: #fff;
 }
 
-#form:focus {
-	background: #111;
-}
+/*#form:focus {
+	background: #3498db;
+}*/
 
 #gui {
 	position: absolute;
@@ -111,7 +120,7 @@ input[type=button] {
 }
 
 #gui:hover {
-	background: #111;
+	background: #3498db;
 }
 
 #traloi h1 {
@@ -181,8 +190,7 @@ input[type=button] {
 #msb-nt{
 	background: #C5062C;
 	border: 0;
-	width: 50px;
-	margin-left: 200px;
+	margin: 0 auto;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	padding: 10px;
